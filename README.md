@@ -82,7 +82,7 @@ claude
 ./claude-flow swarm "Build a REST API" --strategy development --monitor  # Swarm coordination
 ```
 
-# Add this to your shell or ~/.bashrc
+# Add this to your shell or ~/.bashrc to ease access to the wrapper
 alias claude-flow=$PWD/claude-flow
 
 ```bash
