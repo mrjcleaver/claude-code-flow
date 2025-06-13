@@ -66,6 +66,11 @@
 
 ### 🚀 Get started in 30 seconds
 ```bash
+# Install pre-requisites
+
+npm i @anthropic-ai/claude-code
+npx claude-flow init --sparc
+
 # Initialize with SPARC development environment
 npx -y claude-flow@latest init --sparc
 
@@ -74,6 +79,9 @@ npx -y claude-flow@latest init --sparc
 ./claude-flow sparc "build and test my project"  # SPARC development
 ./claude-flow swarm "Build a REST API" --strategy development --monitor  # Swarm coordination
 ```
+
+# Add this to your shell or ~/.bashrc
+alias claude-flow=$PWD/claude-flow
 
 ```bash
 # ⚡ SPARC Development Workflow (NEW: Simplified!)
