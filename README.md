@@ -68,11 +68,13 @@
 ```bash
 # Install pre-requisites
 
-npm i @anthropic-ai/claude-code
-npx claude-flow init --sparc
+npm -y i @anthropic-ai/claude-code
 
 # Initialize with SPARC development environment
 npx -y claude-flow@latest init --sparc
+
+# Check claude is initialized
+claude
 
 # Use the local wrapper after init
 ./claude-flow start --ui  # Interactive process management
